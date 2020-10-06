@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/pubnub/swift.git",
         "state": {
           "branch": null,
-          "revision": "03665055a566459c5f2430181c2bad437a786909",
-          "version": "2.5.0"
+          "revision": "2cea0c0b3b510b86eeb5565dce944cedc884a33a",
+          "version": "3.0.1"
         }
       }
     ]
