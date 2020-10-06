@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891908E9244CABFE00A3B3E3 /* ContentView_old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891908E8244CABFE00A3B3E3 /* ContentView_old.swift */; };
 		89FB05112448F86D00DE3411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB05102448F86D00DE3411 /* AppDelegate.swift */; };
 		89FB05132448F86D00DE3411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB05122448F86D00DE3411 /* SceneDelegate.swift */; };
 		89FB05152448F86D00DE3411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB05142448F86D00DE3411 /* ContentView.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		891908E8244CABFE00A3B3E3 /* ContentView_old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_old.swift; sourceTree = "<group>"; };
 		89FB050D2448F86D00DE3411 /* pnquickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pnquickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FB05102448F86D00DE3411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89FB05122448F86D00DE3411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				89FB05102448F86D00DE3411 /* AppDelegate.swift */,
 				89FB05122448F86D00DE3411 /* SceneDelegate.swift */,
 				89FB05142448F86D00DE3411 /* ContentView.swift */,
-				891908E8244CABFE00A3B3E3 /* ContentView_old.swift */,
 				89FB05162448F86F00DE3411 /* Assets.xcassets */,
 				89FB051E2448F86F00DE3411 /* Info.plist */,
 				89FB05182448F86F00DE3411 /* Preview Content */,
@@ -107,7 +104,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = PubNub;
 				TargetAttributes = {
 					89FB050C2448F86D00DE3411 = {
@@ -153,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891908E9244CABFE00A3B3E3 /* ContentView_old.swift in Sources */,
 				89FB05112448F86D00DE3411 /* AppDelegate.swift in Sources */,
 				89FB05132448F86D00DE3411 /* SceneDelegate.swift in Sources */,
 				89FB05152448F86D00DE3411 /* ContentView.swift in Sources */,
@@ -189,6 +185,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -249,6 +246,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -344,7 +342,7 @@
 			repositoryURL = "https://github.com/pubnub/swift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.5.0;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
