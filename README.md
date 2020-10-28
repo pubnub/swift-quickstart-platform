@@ -10,7 +10,7 @@ You will need the publish and subscribe keys to authenticate your app. Get your 
 
 ## Setup the project
 
-If you don't want to copy the code from this document, you can clone the repository and use the files in there.
+If you don't want to copy the code from this document, you can clone this repository and use the project files locally.
 
 
 1. Open Xcode and create a new iOS App.
