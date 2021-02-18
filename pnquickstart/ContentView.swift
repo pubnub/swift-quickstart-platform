@@ -65,7 +65,7 @@ class PubNubStore: ObservableObject {
   
   var pubnub: PubNub
   let channel: String = "the_guide"
-  let clientUUID: String = UUID().uuidString
+  let clientUUID: String = "ReplaceWithYourClientIdentifier"
   
   init() {
     var pnconfig = PubNubConfiguration(publishKey: "myPublishKey", subscribeKey: "mySubscribeKey")
